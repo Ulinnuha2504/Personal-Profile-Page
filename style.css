@@ -13,7 +13,6 @@ body {
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
-  
   img {
     width: 150px;
     height: 150px;
@@ -38,4 +37,42 @@ body {
   li {
     margin: 10px 0;
   }
+
+
+  .navigation {
+    background-color: #333;      /* Warna latar belakang gelap */
+  }
+  
+  .navigation nav ul {
+    list-style: none;            /* Hilangkan bullet list */
+    margin: 0;
+    padding: 0;
+    display: flex;               /* Buat list horizontal */
+    justify-content: flex-start; /* Rata kiri */
+    align-items: center;
+  }
+  
+  .navigation nav ul li {
+    margin-right: 20px;          /* Spasi antar menu */
+  }
+  
+  .navigation nav ul li:last-child {
+    margin-right: 0;             /* Hilangkan margin kanan di item terakhir */
+  }
+  
+  .navigation nav ul li a {
+    display: block;
+    color: white;                /* Warna teks putih */
+    text-decoration: none;       /* Hilangkan underline */
+    padding: 15px 10px;          /* Jarak dalam link */
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;          /* Sudut agak membulat */
+  }
+  
+  .navigation nav ul li a:hover {
+    background-color: #555;      /* Warna latar saat hover */
+    color: #fff;                 /* Bisa juga ganti warna teks jika mau */
+  }
+  
   
