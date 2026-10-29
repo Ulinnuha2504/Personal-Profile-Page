@@ -1,0 +1,6 @@
+# Language detection GitHub
+index.php linguist-language=HTML
+
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
